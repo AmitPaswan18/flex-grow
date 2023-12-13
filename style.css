@@ -5,6 +5,7 @@
 
 .container {
   height: 100vh;
+  max-width: 2450px;
   display: flex;
   color: white;
   flex-direction: column;
@@ -88,4 +89,24 @@
 .main2 div:nth-of-type(3) {
   background-color: #ff0000;
   flex-grow: 19;
+}
+
+@media screen and (max-width: 767px) {
+  .container {
+    height: 100vh;
+    max-width: 767px;
+    display: flex;
+  }
+
+  .main {
+    width: 90%;
+  }
+
+  .main1 {
+    width: 90%;
+  }
+
+  .main2 {
+    width: 90%;
+  }
 }
